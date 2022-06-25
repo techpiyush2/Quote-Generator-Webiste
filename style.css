@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: block;
+    text-align: center;
+    background-color: #5372f0;
+}
+.wrapper{
+    display: block;
+    width: 605px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 30px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 4px 4px 10px 3px rgba(0,0,0,0.5);
+    margin: auto;
+    margin-top: 80px;
+
+}
+.header{
+     display: block;
+    font-size: 35px;
+    font-weight: 600px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+
+
+}
+.wrapper content{
+    margin: 35px 0;
+    display: flex;
+
+}
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+
+}
+.quote-area i{
+    font-size: 15px;
+    
+}
+.quote-area i:first-child{
+    margin: 30 0 ;
+    display: flex;
+    align-items: flex-start;
+    color: #5372f0;
+}
+.quote-area i:last-child{
+    margin: 0 ;
+    padding-bottom: 14px;
+    display: flex;
+    align-items: flex-end;
+    display:flex;
+    color: #5372f0;
+}
+.quote-area .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+    margin: 0;
+    padding: 0;
+    color: #5372f0;
+
+}
+.wrapper .author {
+    margin-top: 20px;
+    text-align: right;
+    color: #5372f0;
+    
+}
+button{
+    text-align: center;
+    align-items: center;
+    background-color: #5372f0;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 25px;
+    border-radius: 3px;
+    font-size: 15px;
+    box-shadow: 4px 4px 10px 3px rgba(0,0,0,0.5);
+    cursor: pointer;
+
+}
+.author{
+    text-align: center;
+    align-items: center;
+}
